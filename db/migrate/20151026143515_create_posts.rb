@@ -1,6 +1,6 @@
-class CreatePOsts < ActiveRecord::Migration
+class CreatePosts < ActiveRecord::Migration
   def change
-    create_table :p_osts do |t|
+    create_table :posts do |t|
       t.string :title
       t.datetime :written_at
 
